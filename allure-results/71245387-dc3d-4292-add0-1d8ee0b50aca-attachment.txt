@@ -1,0 +1,4 @@
+[INFO] 02-09-2025 23:12:56 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case TC02 started
+[INFO] 02-09-2025 23:13:08 [main] [Tests.TC02_HotelName.TC02(TC02_HotelName.java:53)] - Tolip Hotel Alexandria is found
+[INFO] 02-09-2025 23:13:13 [main] [Tests.TC02_HotelName.TC02(TC02_HotelName.java:59)] - Checking Hotel Name
+[INFO] 02-09-2025 23:13:13 [main] [Tests.TC02_HotelName.TC02(TC02_HotelName.java:61)] - Tolip Hotel Alexandria is found

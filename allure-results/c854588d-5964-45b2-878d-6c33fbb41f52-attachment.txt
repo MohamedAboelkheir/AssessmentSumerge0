@@ -1,0 +1,2 @@
+[INFO] 23-08-2025 12:48:50 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case TC02 started
+[INFO] 23-08-2025 12:48:54 [main] [Tests.TC02_HotelName.TC02(TC02_HotelName.java:47)] - AAA

@@ -1,0 +1,8 @@
+[INFO] 25-08-2025 01:24:01 [main] [Tests.TC01_DataEntry.setup(TC01_DataEntry.java:27)] - Browser is started
+[INFO] 25-08-2025 01:24:05 [main] [Tests.TC01_DataEntry.setup(TC01_DataEntry.java:29)] - Page is Redirected to Url
+[INFO] 25-08-2025 01:24:06 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case TC01 started
+[INFO] 25-08-2025 01:24:12 [main] [Tests.TC01_DataEntry.TC01(TC01_DataEntry.java:56)] - SearchResult is Found
+[INFO] 25-08-2025 01:24:12 [main] [Tests.TC01_DataEntry.TC01(TC01_DataEntry.java:58)] - Checking for the Hotel Name
+[INFO] 25-08-2025 01:24:19 [main] [Tests.TC01_DataEntry.TC01(TC01_DataEntry.java:62)] - Hotel Name is found
+[INFO] 25-08-2025 01:24:19 [main] [Tests.TC01_DataEntry.TC01(TC01_DataEntry.java:64)] - TC is Passed
+[INFO] 25-08-2025 01:24:19 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case TC01 passed

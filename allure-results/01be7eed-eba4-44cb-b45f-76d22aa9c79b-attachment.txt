@@ -1,0 +1,2 @@
+[INFO] 02-09-2025 23:07:12 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case TC02 started
+[INFO] 02-09-2025 23:07:21 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:33)] - Test Case TC02 failed

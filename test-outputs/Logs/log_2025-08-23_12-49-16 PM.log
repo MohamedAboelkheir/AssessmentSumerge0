@@ -1,0 +1,4 @@
+[INFO] 23-08-2025 12:49:16 [main] [Tests.TC03_CompleteData.TC03(TC03_CompleteData.java:35)] - Before Scroll
+[INFO] 23-08-2025 12:49:23 [main] [Tests.TC03_CompleteData.TC03(TC03_CompleteData.java:41)] - After Scroll
+[INFO] 23-08-2025 12:49:26 [main] [Tests.TC03_CompleteData.TC03(TC03_CompleteData.java:52)] - FinishBookingText is being checked
+[INFO] 23-08-2025 12:49:32 [main] [Tests.TC03_CompleteData.TC03(TC03_CompleteData.java:57)] - FinishBookingText is found

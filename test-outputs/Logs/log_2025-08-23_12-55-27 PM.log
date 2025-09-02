@@ -1,0 +1,3 @@
+[INFO] 23-08-2025 12:55:27 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case TC02 started
+[INFO] 23-08-2025 12:55:31 [main] [Tests.TC02_HotelName.TC02(TC02_HotelName.java:47)] - AAA
+[INFO] 23-08-2025 12:55:57 [main] [Tests.TC02_HotelName.TC02(TC02_HotelName.java:51)] - Tolip Hotel Alexandria is found

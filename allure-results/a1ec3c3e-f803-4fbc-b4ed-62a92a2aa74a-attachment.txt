@@ -1,0 +1,5 @@
+[INFO] 25-08-2025 00:09:40 [main] [Tests.TC01_DataEntry.setup(TC01_DataEntry.java:28)] - Browser is started
+[INFO] 25-08-2025 00:09:47 [main] [Tests.TC01_DataEntry.setup(TC01_DataEntry.java:30)] - Page is Redirected to Url
+[INFO] 25-08-2025 00:09:47 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case TC01 started
+[INFO] 25-08-2025 00:10:04 [main] [Tests.TC01_DataEntry.TC01(TC01_DataEntry.java:46)] - SearchResult is Found
+[INFO] 25-08-2025 00:10:04 [main] [Tests.TC01_DataEntry.TC01(TC01_DataEntry.java:50)] - TC is Passed

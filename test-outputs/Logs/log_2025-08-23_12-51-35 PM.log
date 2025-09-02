@@ -1,0 +1,4 @@
+[INFO] 23-08-2025 12:51:35 [main] [Tests.TC04_CheckingHotelDetails.TC04(TC04_CheckingHotelDetails.java:34)] - Before Scroll
+[INFO] 23-08-2025 12:51:35 [main] [Tests.TC04_CheckingHotelDetails.TC04(TC04_CheckingHotelDetails.java:40)] - After Scroll
+[INFO] 23-08-2025 12:51:36 [main] [Tests.TC04_CheckingHotelDetails.TC04(TC04_CheckingHotelDetails.java:51)] - FinishBookingText is being checked
+[INFO] 23-08-2025 12:51:44 [main] [Tests.TC04_CheckingHotelDetails.TC04(TC04_CheckingHotelDetails.java:56)] - FinishBookingText is found

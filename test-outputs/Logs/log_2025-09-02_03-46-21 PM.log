@@ -1,0 +1,13 @@
+[INFO] 02-09-2025 15:46:21 [main] [Tests.TC01_DataEntry.setup(TC01_DataEntry.java:27)] - Browser is started
+[INFO] 02-09-2025 15:46:24 [main] [Tests.TC01_DataEntry.setup(TC01_DataEntry.java:29)] - Page is Redirected to Url
+[INFO] 02-09-2025 15:46:24 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case TC01 started
+[INFO] 02-09-2025 15:46:31 [main] [Tests.TC01_DataEntry.TC01(TC01_DataEntry.java:56)] - SearchResult is Found
+[INFO] 02-09-2025 15:46:31 [main] [Tests.TC01_DataEntry.TC01(TC01_DataEntry.java:58)] - Checking for the Hotel Name
+[INFO] 02-09-2025 15:49:31 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:33)] - Test Case TC01 failed
+[ERROR] 02-09-2025 15:52:31 [main] [Utilities.Utility.takeScreenShot(Utility.java:73)] - java.util.concurrent.TimeoutException
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c64700ae954fef12826154f4df0b5f56, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 139.0.3405.125, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62069}, msedge: {msedgedriverVersion: 139.0.3405.125 (5d3aeaf5858..., userDataDir: C:\Users\ABOALK~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62069/devtoo..., se:cdpVersion: 139.0.3405.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c64700ae954fef12826154f4df0b5f56

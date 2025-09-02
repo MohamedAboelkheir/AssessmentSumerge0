@@ -1,0 +1,2 @@
+[DEBUG] 23-08-2025 14:58:46 [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 23-08-2025 14:58:46 [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
