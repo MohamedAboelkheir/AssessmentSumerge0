@@ -31,22 +31,17 @@ public class TC04_CheckingHotelDetails {
     @Test
     public void TC04() throws IOException {
 
-        LogsUtils.info("Before Scroll");
-
         // Use the actual driver instance
         JavascriptExecutor js = (JavascriptExecutor) getDriver();
         js.executeScript("window.scrollBy(0,1400);");  // Scroll down 500 pixels
 
-        LogsUtils.info("After Scroll");
 
         new P03_DetailsPage(getDriver()).ClickOnRoom();
-        LogsUtils.info("1");
 
         new P03_DetailsPage(getDriver()).SelectAmountFromDropdown();
-        LogsUtils.info("2");
+
 
         new P03_DetailsPage(getDriver()).ClickOnIWillReserveButton();
-        LogsUtils.info("3");
 
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(9000));
 

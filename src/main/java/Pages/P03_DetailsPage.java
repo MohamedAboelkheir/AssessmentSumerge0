@@ -36,9 +36,9 @@ public class P03_DetailsPage {
     }
 
     public P03_DetailsPage SelectAmountFromDropdown() {
-        WebElement element = driver.findElement(By.xpath("//select[@id='hprt_nos_select_78883120_386871369_0_33_0_131741']"));
+        WebElement element = driver.findElement(By.xpath("//select[@id='hprt_nos_select_bbasic_0']"));
         Select DropDown = new Select(element);
-        DropDown.selectByIndex(2);
+        DropDown.selectByIndex(1);
         return new P03_DetailsPage(driver);
 
     }

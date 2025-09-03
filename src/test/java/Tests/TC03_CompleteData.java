@@ -31,13 +31,6 @@ public class TC03_CompleteData {
     @Test
     public void TC03() throws IOException, InterruptedException {
 
-      /*  new P01_HomePage(getDriver()).enterDestination()
-                .clickOnDates()
-                .clickOnSearchButton();
-
-        new P02_SearchResultsPage(getDriver()).ClickOnHotelNameLink();
-
-*/
         new P03_DetailsPage(getDriver()).ClickOnRoom();
 
         LogsUtils.info("Room has been selected");
@@ -61,6 +54,6 @@ public class TC03_CompleteData {
     public void quit() {
         getDriver().manage().timeouts()
                 .implicitlyWait(Duration.ofSeconds(5000));
-       // getDriver().close();
+        getDriver().close();
     }
 }

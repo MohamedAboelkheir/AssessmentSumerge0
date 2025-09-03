@@ -1,0 +1,8 @@
+[INFO] 03-09-2025 14:29:42 [main] [Tests.TC04_CheckingHotelDetails.TC04(TC04_CheckingHotelDetails.java:34)] - Before Scroll
+[INFO] 03-09-2025 14:29:52 [main] [Tests.TC04_CheckingHotelDetails.TC04(TC04_CheckingHotelDetails.java:40)] - After Scroll
+[INFO] 03-09-2025 14:29:54 [main] [Tests.TC04_CheckingHotelDetails.TC04(TC04_CheckingHotelDetails.java:43)] - 1
+[INFO] 03-09-2025 14:29:55 [main] [Tests.TC04_CheckingHotelDetails.TC04(TC04_CheckingHotelDetails.java:46)] - 2
+[INFO] 03-09-2025 14:29:55 [main] [Pages.P03_DetailsPage.ClickOnIWillReserveButton(P03_DetailsPage.java:47)] - Clicking on I Will reserve button
+[INFO] 03-09-2025 14:30:00 [main] [Pages.P03_DetailsPage.ClickOnIWillReserveButton(P03_DetailsPage.java:49)] - New Page is Here
+[INFO] 03-09-2025 14:30:00 [main] [Tests.TC04_CheckingHotelDetails.TC04(TC04_CheckingHotelDetails.java:49)] - 3
+[INFO] 03-09-2025 14:30:00 [main] [Tests.TC04_CheckingHotelDetails.TC04(TC04_CheckingHotelDetails.java:54)] - FinishBookingText is being checked
