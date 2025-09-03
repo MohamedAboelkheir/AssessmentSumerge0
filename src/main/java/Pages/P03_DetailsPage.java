@@ -14,7 +14,7 @@ public class P03_DetailsPage {
     private final WebDriver driver;
     private final By Room = By.xpath("(//span[@class='bui-checkbox__label'])[1]");
     private final By EnterYourdetailsText = By.id("user-details-heading");
-    private final By FinishbookingText = By.xpath("//strong[normalize-space()='Finish booking']");
+    private final By FinishbookingText = By.cssSelector(".fe_banner__message");
 
     private final By RoomCheckBox = By.xpath("(//span[@class='bui-checkbox__label'])[1]");
     private final By IWillReserveButton = By.xpath("//span[@class='bui-button__text js-reservation-button__text']");
@@ -44,9 +44,8 @@ public class P03_DetailsPage {
     }
 
     public P04_ConfirmationPage ClickOnIWillReserveButton() {
-        LogsUtils.info("Clicking on I Will reserve button");
+
         Utility.clickingOnElement(driver, IWillReserveButton);
-        LogsUtils.info("New Page is Here");
 
         return new P04_ConfirmationPage(driver);
     }

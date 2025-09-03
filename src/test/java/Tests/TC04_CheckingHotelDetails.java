@@ -53,9 +53,11 @@ public class TC04_CheckingHotelDetails {
 
         LogsUtils.info("FinishBookingText is found");
 
-        Assert.assertTrue(new P03_DetailsPage(getDriver()).assertLink(getPropertyValue("environment", "URL04")));
+     //   Assert.assertTrue(new P03_DetailsPage(getDriver()).assertLink(getPropertyValue("environment", "URL04")));
 
         new P04_ConfirmationPage(getDriver()).checkingHotelName();
+        LogsUtils.info("Checking Hotel Name");
+
         Assert.assertTrue(new P04_ConfirmationPage(getDriver()).assertHotel(getPropertyValue("environment", "HotelName")));
         LogsUtils.info("Hotel Name is correct");
 

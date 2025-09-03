@@ -1,0 +1,12 @@
+[INFO] 03-09-2025 20:13:19 [main] [Tests.TC01_DataEntry.setup(TC01_DataEntry.java:27)] - Browser is started
+[INFO] 03-09-2025 20:13:22 [main] [Tests.TC01_DataEntry.setup(TC01_DataEntry.java:29)] - Page is Redirected to Url
+[INFO] 03-09-2025 20:13:22 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case TC01 started
+[INFO] 03-09-2025 20:13:34 [main] [Tests.TC01_DataEntry.TC01(TC01_DataEntry.java:53)] - SearchResult is Found
+[INFO] 03-09-2025 20:13:34 [main] [Tests.TC01_DataEntry.TC01(TC01_DataEntry.java:55)] - Checking for the Hotel Name
+[INFO] 03-09-2025 20:13:34 [main] [Tests.TC01_DataEntry.TC01(TC01_DataEntry.java:59)] - Hotel Name is found
+[INFO] 03-09-2025 20:13:34 [main] [Tests.TC01_DataEntry.TC01(TC01_DataEntry.java:61)] - TC is Passed
+[INFO] 03-09-2025 20:13:34 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case TC01 passed
+[INFO] 03-09-2025 20:13:38 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case TC02 started
+[INFO] 03-09-2025 20:13:49 [main] [Tests.TC02_HotelName.TC02(TC02_HotelName.java:49)] - Tolip Hotel Alexandria is found
+[INFO] 03-09-2025 20:13:55 [main] [Tests.TC02_HotelName.TC02(TC02_HotelName.java:55)] - Checking Hotel Name
+[INFO] 03-09-2025 20:13:55 [main] [Tests.TC02_HotelName.TC02(TC02_HotelName.java:57)] - Tolip Hotel Alexandria is found

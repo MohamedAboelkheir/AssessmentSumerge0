@@ -1,0 +1,4 @@
+[INFO] 03-09-2025 18:03:58 [main] [Tests.TC03_CompleteData.TC03(TC03_CompleteData.java:36)] - Room has been selected
+[INFO] 03-09-2025 18:03:59 [main] [Tests.TC03_CompleteData.TC03(TC03_CompleteData.java:40)] - NumberOfPersons has benn selected
+[INFO] 03-09-2025 18:03:59 [main] [Pages.P03_DetailsPage.ClickOnIWillReserveButton(P03_DetailsPage.java:47)] - Clicking on I Will reserve button
+[INFO] 03-09-2025 18:04:05 [main] [Pages.P03_DetailsPage.ClickOnIWillReserveButton(P03_DetailsPage.java:49)] - New Page is Here

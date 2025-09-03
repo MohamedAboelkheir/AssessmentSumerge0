@@ -40,7 +40,10 @@ public class TC03_CompleteData {
         LogsUtils.info("NumberOfPersons has benn selected");
 
 
+        LogsUtils.info("Clicking on I Will reserve button");
         new P03_DetailsPage(getDriver()).ClickOnIWillReserveButton();
+        LogsUtils.info("The new Page is Here");
+
 
         Thread.sleep(1000);
 

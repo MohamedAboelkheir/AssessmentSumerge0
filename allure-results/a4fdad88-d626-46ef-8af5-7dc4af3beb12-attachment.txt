@@ -1,0 +1,6 @@
+[INFO] 03-09-2025 20:10:43 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case TC04 started
+[INFO] 03-09-2025 20:11:02 [main] [Tests.TC04_CheckingHotelDetails.TC04(TC04_CheckingHotelDetails.java:49)] - FinishBookingText is being checked
+[INFO] 03-09-2025 20:11:02 [main] [Tests.TC04_CheckingHotelDetails.TC04(TC04_CheckingHotelDetails.java:54)] - FinishBookingText is found
+[INFO] 03-09-2025 20:11:03 [main] [Tests.TC04_CheckingHotelDetails.TC04(TC04_CheckingHotelDetails.java:59)] - Checking Hotel Name
+[INFO] 03-09-2025 20:11:03 [main] [Tests.TC04_CheckingHotelDetails.TC04(TC04_CheckingHotelDetails.java:62)] - Hotel Name is correct
+[INFO] 03-09-2025 20:11:03 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case TC04 passed
