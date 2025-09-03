@@ -65,7 +65,7 @@ public class TC04_CheckingHotelDetails {
     @AfterMethod
     public void quit() {
         getDriver().manage().timeouts()
-                .implicitlyWait(Duration.ofSeconds(5000));
-        //getDriver().close();
+                .implicitlyWait(Duration.ofSeconds(2000));
+        getDriver().close();
     }
 }

@@ -53,7 +53,7 @@ public class TC03_CompleteData {
     @AfterMethod
     public void quit() {
         getDriver().manage().timeouts()
-                .implicitlyWait(Duration.ofSeconds(5000));
+                .implicitlyWait(Duration.ofSeconds(2000));
         getDriver().close();
     }
 }

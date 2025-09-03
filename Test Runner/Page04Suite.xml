@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd">
+
+<suite name="Page04Suite">
+    <listeners>
+        <listener class-name="Listeners.IInvokedMethodListenerClass"/>
+        <listener class-name="Listeners.ITestResultListenerClass"/>
+    </listeners>
+    <test name="TC04_CheckingHotelDetails">
+        <classes>
+            <class name="Tests.TC04_CheckingHotelDetails"/>
+        </classes>
+    </test>
+</suite>

@@ -62,7 +62,7 @@ public class TC02_HotelName {
     @AfterMethod
     public void quit() {
         getDriver().manage().timeouts()
-                .implicitlyWait(Duration.ofSeconds(5000));
+                .implicitlyWait(Duration.ofSeconds(2000));
         getDriver().close();
     }
 }
