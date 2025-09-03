@@ -30,10 +30,6 @@ public class TC02_HotelName {
         getDriver().manage().timeouts()
                 .implicitlyWait(Duration.ofSeconds(3000));
 
-
-        // Assert.assertTrue(new P01_HomePage(getDriver()).assertLink(getPropertyValue("environment", "SearchLink")));
-        // new P01_HomePage(getDriver()).checkingSearchResultText();
-
     }
 
 

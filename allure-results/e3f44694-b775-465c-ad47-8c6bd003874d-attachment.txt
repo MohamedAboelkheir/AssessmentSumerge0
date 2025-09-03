@@ -1,0 +1,2 @@
+[INFO] 03-09-2025 13:41:32 [main] [Tests.TC01_DataEntry.setup(TC01_DataEntry.java:27)] - Browser is started
+[INFO] 03-09-2025 13:41:33 [main] [Tests.TC01_DataEntry.setup(TC01_DataEntry.java:29)] - Page is Redirected to Url

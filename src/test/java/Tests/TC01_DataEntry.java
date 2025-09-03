@@ -66,6 +66,6 @@ public class TC01_DataEntry {
 
     public void quit() {
 
-        //   getDriver().close();
+          getDriver().close();
     }
 }

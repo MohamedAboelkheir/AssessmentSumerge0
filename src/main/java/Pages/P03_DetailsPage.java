@@ -1,5 +1,6 @@
 package Pages;
 
+import Utilities.LogsUtils;
 import Utilities.Utility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -16,7 +17,7 @@ public class P03_DetailsPage {
     private final By FinishbookingText = By.xpath("//strong[normalize-space()='Finish booking']");
 
     private final By RoomCheckBox = By.xpath("(//span[@class='bui-checkbox__label'])[1]");
-    private final By IWillReserveButton = By.cssSelector("span[class='bui-buttontext js-reservation-buttontext']");
+    private final By IWillReserveButton = By.xpath("//span[@class='bui-button__text js-reservation-button__text']");
 
     private WebDriverWait wait;
 
@@ -35,7 +36,7 @@ public class P03_DetailsPage {
     }
 
     public P03_DetailsPage SelectAmountFromDropdown() {
-        WebElement element = driver.findElement(By.xpath("(//select[@id='hprt_nos_select_78883120_386871369_0_33_0_131741'])[1]"));
+        WebElement element = driver.findElement(By.xpath("//select[@id='hprt_nos_select_78883120_386871369_0_33_0_131741']"));
         Select DropDown = new Select(element);
         DropDown.selectByIndex(2);
         return new P03_DetailsPage(driver);
@@ -43,14 +44,10 @@ public class P03_DetailsPage {
     }
 
     public P04_ConfirmationPage ClickOnIWillReserveButton() {
+        LogsUtils.info("Clicking on I Will reserve button");
         Utility.clickingOnElement(driver, IWillReserveButton);
-        // Adding a wait time using WebDriverWait
-       /* WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        LogsUtils.info("New Page is Here");
 
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("h2=[id='user-details-heading']"))); // Replace with an actual element to wait for
-
-      */
-        //return new P04_ConfirmationPage(driver);
         return new P04_ConfirmationPage(driver);
     }
 

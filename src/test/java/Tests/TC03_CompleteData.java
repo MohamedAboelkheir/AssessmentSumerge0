@@ -54,38 +54,6 @@ public class TC03_CompleteData {
         new P03_DetailsPage(getDriver()).checkingFinishbookingText();
         Assert.assertTrue(new P03_DetailsPage(getDriver()).checkingFinishbookingText());
 
-
-        /*
-
-
-
-
-
-
-        new P03_DetailsPage(getDriver()).ClickOnRoom();
-
-        LogsUtils.info("Room is checked");
-
-        new P03_DetailsPage(getDriver()).SelectAmountFromDropdown();
-
-
-        // new P03_DetailsPage(getDriver()).SelectAmountFromDropdown();
-
-        new P03_DetailsPage(getDriver()).ClickOnIWillReserveButton();
-
-        getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(9000));
-
-
-        LogsUtils.info("FinishBookingText is being checked");
-
-        new P03_DetailsPage(getDriver()).checkingFinishbookingText();
-        Assert.assertTrue(new P03_DetailsPage(getDriver()).checkingFinishbookingText());
-
-        LogsUtils.info("FinishBookingText is found");
-
-        Assert.assertTrue(new P03_DetailsPage(getDriver()).assertLink(getPropertyValue("environment", "URL04")));
-
-*/
     }
 
 
@@ -93,6 +61,6 @@ public class TC03_CompleteData {
     public void quit() {
         getDriver().manage().timeouts()
                 .implicitlyWait(Duration.ofSeconds(5000));
-        //getDriver().close();
+       // getDriver().close();
     }
 }
